@@ -1,0 +1,41 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-sobre-ns {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-parceiros {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-contato {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-sobre-ns {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-parceiros {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-contato {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
